@@ -1,0 +1,15 @@
+2024-09-20 22:01:29 [main] INFO  ru.liga.Main - Start
+2024-09-20 22:01:29 [main] INFO  ru.liga.Main - main menu
+2024-09-20 22:01:32 [main] INFO  ru.liga.Main - case 1, reading json
+2024-09-20 22:01:32 [main] INFO  ru.liga.truck.read.TruckJsonReader - Reading trucks from csv file, trucks.json
+2024-09-20 22:01:32 [main] INFO  ru.liga.Main - End
+2024-09-20 22:03:07 [main] INFO  ru.liga.Main - Start
+2024-09-20 22:03:07 [main] INFO  ru.liga.Main - main menu
+2024-09-20 22:03:10 [main] INFO  ru.liga.Main - case 1, reading json
+2024-09-20 22:03:10 [main] INFO  ru.liga.truck.read.TruckJsonReader - Reading trucks from csv file, trucks.json
+2024-09-20 22:03:10 [main] INFO  r.l.a.u.model.UnpackingAlgorithmImpl - Unpacking parcels
+2024-09-20 22:03:10 [main] INFO  r.l.a.u.model.UnpackingAlgorithmImpl - Printing results
+2024-09-20 22:03:10 [main] INFO  r.l.a.u.model.UnpackingAlgorithmImpl - Printing results
+2024-09-20 22:03:10 [main] INFO  r.l.a.u.model.UnpackingAlgorithmImpl - Printing results
+2024-09-20 22:03:10 [main] INFO  r.l.a.u.model.UnpackingAlgorithmImpl - Printing results
+2024-09-20 22:03:10 [main] INFO  ru.liga.Main - End

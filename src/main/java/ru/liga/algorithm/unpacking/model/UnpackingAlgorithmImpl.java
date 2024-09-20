@@ -1,5 +1,6 @@
 package ru.liga.algorithm.unpacking.model;
 
+import lombok.extern.slf4j.Slf4j;
 import ru.liga.parcel.model.ParcelPatterns;
 import ru.liga.truck.model.Truck;
 
@@ -8,9 +9,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
+@Slf4j
 public class UnpackingAlgorithmImpl implements UnpackingAlgorithm {
     @Override
     public void unpackParcels(List<Truck> trucks) {
+        log.info("Unpacking parcels");
         for (Truck truck : trucks) {
             int[][] grid = truck.getGrid();
             Map<Integer, Integer> parcelCount = new HashMap<>();
@@ -64,6 +67,7 @@ public class UnpackingAlgorithmImpl implements UnpackingAlgorithm {
     }
 
     private void printResults(Truck truck, Map<Integer, Integer> parcelCount) {
+        log.trace("Printing results of truck: {} ", truck);
         System.out.println("грузовик");
         System.out.println(truck);
         System.out.println("Количество посылок в грузовике:");
