@@ -7,7 +7,9 @@ import ru.liga.algorithm.packing.types.EvenlyPackingAlgorithm;
 import ru.liga.parcel.model.Parcel;
 import ru.liga.truck.model.Truck;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -33,15 +35,15 @@ class ComplexPackingAlgorithmTest {
 
     @Test
     void testComplexAlgorithm() {
-        PackingAlgorithm algorithm = new EvenlyPackingAlgorithm(parcels, List.of(new Truck()));
+        PackingAlgorithm algorithm = new EvenlyPackingAlgorithm();
 
-        List<Truck> trucks = algorithm.packageParcels();
+        List<Truck> trucks = algorithm.packParcelsIntoTrucks(parcels, List.of(new Truck()));
         assertNotNull(trucks);
         assertEquals(1, trucks.size(), "Должны быть использованы 2 грузовика при сложном алгоритме");
 
         Truck firstTruck = trucks.get(0);
 
-        assertTrue(isParcelInTruck(firstTruck,smallParcel));
+        assertTrue(isParcelInTruck(firstTruck, smallParcel));
         assertTrue(isParcelInTruck(firstTruck, largeParcel));
         assertTrue(isParcelInTruck(firstTruck, mediumParcel));
     }

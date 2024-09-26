@@ -19,6 +19,6 @@ public class ParcelPatterns {
     }
 
     public static Optional<int[][]> getShape(int digit) {
-        return Optional.of(PATTERNS.get(digit));
+        return Optional.ofNullable(PATTERNS.get(digit));
     }
 }

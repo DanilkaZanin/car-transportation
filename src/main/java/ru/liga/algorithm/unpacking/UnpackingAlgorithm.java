@@ -1,4 +1,4 @@
-package ru.liga.algorithm.unpacking.model;
+package ru.liga.algorithm.unpacking;
 
 import ru.liga.truck.model.Truck;
 

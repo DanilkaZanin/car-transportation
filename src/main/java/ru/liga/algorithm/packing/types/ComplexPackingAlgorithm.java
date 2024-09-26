@@ -5,30 +5,30 @@ import ru.liga.algorithm.packing.model.PackingAlgorithmImpl;
 import ru.liga.parcel.model.Parcel;
 import ru.liga.truck.model.Truck;
 
-import java.util.*;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
 
 @Slf4j
 public class ComplexPackingAlgorithm extends PackingAlgorithmImpl {
-    public ComplexPackingAlgorithm(Map<Parcel, Integer> parcels, List<Truck> trucks) {
-        super(parcels, trucks);
-        log.info("Using COMPLEX packing algorithm");
-    }
+    private static final int CONVERSION_INDEX = 1;
+    private static final int FREE_ZONE_VALUE = 0;
 
     @Override
-    public List<Truck> packageParcels() {
+    public List<Truck> packParcelsIntoTrucks(Map<Parcel, Integer> parcels, List<Truck> trucks) {
         log.info("Packing parcels");
         for (Truck truck : trucks) {
             int[][] grid = truck.getGrid();
-            for (int i = grid.length - 1; i >= 0; i--) {
-                int j = 0;
-                for (; j < grid.length; j++) {
-                    if (grid[i][j] == 0) {
-                        Map.Entry<Integer, Integer> emptyPlace = findEmptyPlace(grid, i, j);
-                        Optional<Parcel> parcel = getParcel(emptyPlace.getKey(), emptyPlace.getValue());
+            for (int currentHeight = grid.length - CONVERSION_INDEX; currentHeight >= 0; currentHeight--) {
+                int currentWidth = 0;
+                for (; currentWidth < grid.length; currentWidth++) {
+                    if (grid[currentHeight][currentWidth] == FREE_ZONE_VALUE) {
+                        Map.Entry<Integer, Integer> emptyPlace = findEmptyPlace(grid, currentHeight, currentWidth);
+                        Optional<Parcel> parcel = getParcel(emptyPlace.getKey(), emptyPlace.getValue(), parcels);
                         if (parcel.isPresent()) {
-                            setParcelIntoGrid(grid, parcel.get(), i, j);
-                            j += parcel.get().getWidth() - 1;
-                            if (j >= 5) {
+                            setParcelIntoGrid(grid, parcel.get(), currentHeight, currentWidth);
+                            currentWidth += parcel.get().getWidth() - CONVERSION_INDEX;
+                            if (currentWidth >= Truck.MAX_HEIGHT - CONVERSION_INDEX) {
                                 break;
                             }
                         } else {

@@ -2,56 +2,63 @@ package ru.liga.algorithm.packing.types;
 
 import lombok.extern.slf4j.Slf4j;
 import ru.liga.algorithm.packing.model.PackingAlgorithmImpl;
-import ru.liga.truck.model.Truck;
 import ru.liga.parcel.model.Parcel;
+import ru.liga.truck.model.Truck;
 
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 @Slf4j
 public class EvenlyPackingAlgorithm extends PackingAlgorithmImpl {
-    public EvenlyPackingAlgorithm(Map<Parcel, Integer> parcels, List<Truck> trucks) {
-        super(parcels, trucks);
-        log.info("Using evenly packing algorithm");
-    }
+    private static final int FREE_ZONE_VALUE = 0;
+    private static final int CONVERSION_INDEX = 1;
 
     @Override
-    public List<Truck> packageParcels() {
+    public List<Truck> packParcelsIntoTrucks(Map<Parcel, Integer> parcels, List<Truck> trucks) {
         log.info("Packing Parcels");
-        while (!this.parcels.isEmpty()) {
-            boolean parcelPlaced = false;
-            Truck truck = takeLessLoadedTruck();
-            for (int i = Truck.MAX_HEIGHT - 1; i >= 0; i--) {
-                for (int j = 0; j < Truck.MAX_WIDTH; j++) {
-                    if (truck.getGrid()[i][j] == 0) {
-                        Map.Entry<Integer, Integer> emptyPlace = findEmptyPlace(truck.getGrid(), i, j);
-                        Optional<Parcel> parcel = getParcel(emptyPlace.getValue(), emptyPlace.getKey());
-                        if (parcel.isPresent()) {
-                            setParcelIntoGrid(truck.getGrid(), parcel.get(), i, j);
-                            truck.getCountOfParcels().plusOne();
-                            parcelPlaced = true;
-                            break;
+        while (!parcels.isEmpty()) {
+            AtomicBoolean parcelPlaced = new AtomicBoolean(false);
+            Truck truck = takeLessLoadedTruck(trucks);
+
+            outerLoop:
+            for (int currentHeight = Truck.MAX_HEIGHT - CONVERSION_INDEX; currentHeight >= 0; currentHeight--) {
+                for (int currentWidth = 0; currentWidth < Truck.MAX_WIDTH; currentWidth++) {
+                    if (truck.getGrid()[currentHeight][currentWidth] == FREE_ZONE_VALUE) {
+                        Map.Entry<Integer, Integer> emptyPlace = findEmptyPlace(truck.getGrid(), currentHeight, currentWidth);
+                        if (tryPlaceParcel(truck, currentHeight, currentWidth, emptyPlace, parcels)) {
+                            parcelPlaced.set(true);
+                            break outerLoop;
                         }
                     }
                 }
-                if (parcelPlaced) {
-                    break;
-                }
             }
-            if (!parcelPlaced) {
+
+            if (!parcelPlaced.get()) {
                 log.warn("Cannot place any more parcels in the truck {}", truck.hashCode());
                 throw new RuntimeException("Не удалось упаковать все посылки");
             }
         }
-        return this.trucks;
+        return trucks;
     }
 
-    //Придумать мб ошибку вместо null
-    private Truck takeLessLoadedTruck() {
+    public boolean tryPlaceParcel(Truck truck, int currentHeight,
+                                  int currentWidth,
+                                  Map.Entry<Integer, Integer> emptyPlace,
+                                  Map<Parcel, Integer> parcels) {
+        return getParcel(emptyPlace.getKey(), emptyPlace.getValue(), parcels)
+                .map(parcel -> {
+                    setParcelIntoGrid(truck.getGrid(), parcel, currentHeight, currentWidth);
+                    truck.getCountOfParcels().plusOne();
+                    return true;
+                })
+                .orElse(false);
+    }
+
+    private Truck takeLessLoadedTruck(List<Truck> trucks) {
         return trucks.stream()
                 .min(Comparator.comparing(truck -> truck.getCountOfParcels().getCount()))
-                .orElse(null);
+                .orElseThrow(NullPointerException::new);
     }
 }

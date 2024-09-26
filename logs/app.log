@@ -13,3 +13,1471 @@
 2024-09-20 22:03:10 [main] INFO  r.l.a.u.model.UnpackingAlgorithmImpl - Printing results
 2024-09-20 22:03:10 [main] INFO  r.l.a.u.model.UnpackingAlgorithmImpl - Printing results
 2024-09-20 22:03:10 [main] INFO  ru.liga.Main - End
+2024-09-25 19:40:55 [main] INFO  ru.liga.Main - Start
+2024-09-25 19:40:55 [main] INFO  ru.liga.Main - main menu
+2024-09-25 19:40:58 [main] INFO  ru.liga.Main - case 1, reading json
+2024-09-25 19:40:58 [main] INFO  ru.liga.truck.read.TruckJsonReader - Reading trucks from csv file, trucks.json
+2024-09-25 19:40:58 [main] INFO  r.l.a.u.model.UnpackingAlgorithmImpl - Unpacking parcels
+2024-09-25 19:40:58 [main] INFO  ru.liga.Main - End
+2024-09-25 19:47:57 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Using evenly packing algorithm
+2024-09-25 19:47:57 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:47:57 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Using evenly packing algorithm
+2024-09-25 19:47:57 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:47:57 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Using evenly packing algorithm
+2024-09-25 19:47:57 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:47:57 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Using evenly packing algorithm
+2024-09-25 19:47:57 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 5
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:47:57 [main] INFO  r.l.a.u.model.UnpackingAlgorithmImpl - Unpacking parcels
+2024-09-25 19:47:57 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Using evenly packing algorithm
+2024-09-25 19:47:57 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 5
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 4
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+2 2 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+2 2 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 2
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+3 3 3 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+3 3 3 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:47:57 [main] INFO  r.l.a.p.types.SimplePackingAlgorithm - Using simple packing algorithm
+2024-09-25 19:47:57 [main] INFO  r.l.a.p.types.SimplePackingAlgorithm - Packing parcels
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:47:57 [main] INFO  r.l.a.p.types.SimplePackingAlgorithm - Using simple packing algorithm
+2024-09-25 19:47:57 [main] WARN  r.l.a.p.types.SimplePackingAlgorithm - Not enough trucks to simple packing algorithm
+2024-09-25 19:47:57 [main] INFO  r.l.a.p.types.SimplePackingAlgorithm - Using simple packing algorithm
+2024-09-25 19:47:57 [main] INFO  r.l.a.p.types.SimplePackingAlgorithm - Packing parcels
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-25 19:47:57 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:48:11 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Using evenly packing algorithm
+2024-09-25 19:48:11 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-25 19:48:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-25 19:48:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-25 19:48:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-25 19:48:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:48:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-25 19:48:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-25 19:48:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-25 19:48:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:49:15 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Using evenly packing algorithm
+2024-09-25 19:49:15 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:49:15 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Using evenly packing algorithm
+2024-09-25 19:49:15 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:49:15 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Using evenly packing algorithm
+2024-09-25 19:49:15 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:49:15 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Using evenly packing algorithm
+2024-09-25 19:49:15 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 5
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:49:15 [main] INFO  r.l.a.u.model.UnpackingAlgorithmImpl - Unpacking parcels
+2024-09-25 19:49:15 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Using evenly packing algorithm
+2024-09-25 19:49:15 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 5
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 4
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+2 2 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+2 2 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 2
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+3 3 3 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+3 3 3 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:49:15 [main] INFO  r.l.a.p.types.SimplePackingAlgorithm - Using simple packing algorithm
+2024-09-25 19:49:15 [main] INFO  r.l.a.p.types.SimplePackingAlgorithm - Packing parcels
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:49:15 [main] INFO  r.l.a.p.types.SimplePackingAlgorithm - Using simple packing algorithm
+2024-09-25 19:49:15 [main] WARN  r.l.a.p.types.SimplePackingAlgorithm - Not enough trucks to simple packing algorithm
+2024-09-25 19:49:15 [main] INFO  r.l.a.p.types.SimplePackingAlgorithm - Using simple packing algorithm
+2024-09-25 19:49:15 [main] INFO  r.l.a.p.types.SimplePackingAlgorithm - Packing parcels
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-25 19:49:15 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:49:36 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Using evenly packing algorithm
+2024-09-25 19:49:36 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-25 19:49:36 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-25 19:49:36 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-25 19:49:36 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-25 19:49:36 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:49:36 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 5
+2024-09-25 19:49:36 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-25 19:49:36 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-25 19:49:36 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:49:36 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 4
+2024-09-25 19:49:36 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+2 2 
+
+2024-09-25 19:49:36 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+2 2 
+
+2024-09-25 19:49:36 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:49:36 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 2
+2024-09-25 19:49:36 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+3 3 3 
+
+2024-09-25 19:49:36 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+3 3 3 
+
+2024-09-25 19:49:36 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-25 19:53:27 [main] INFO  ru.liga.Main - Start
+2024-09-25 19:53:27 [main] INFO  ru.liga.Main - main menu
+2024-09-25 19:53:31 [main] INFO  ru.liga.Main - case 1, reading json
+2024-09-25 19:53:31 [main] INFO  ru.liga.truck.read.TruckJsonReader - Reading trucks from csv file, trucks.json
+2024-09-25 19:53:31 [main] INFO  r.l.a.u.model.UnpackingAlgorithmImpl - Unpacking parcels
+2024-09-25 19:53:31 [main] INFO  ru.liga.Main - End
+2024-09-26 16:14:22 [main] INFO  ru.liga.menu.MainMenu - Start
+2024-09-26 16:14:22 [main] INFO  ru.liga.menu.MainMenu - main menu
+2024-09-26 16:14:26 [main] INFO  ru.liga.menu.MainMenu - case 1, reading json
+2024-09-26 16:14:26 [main] INFO  ru.liga.truck.read.TruckJsonReader - Reading trucks from csv file, trucks.json
+2024-09-26 16:14:26 [main] INFO  r.l.a.u.model.UnpackingAlgorithmImpl - Unpacking parcels
+2024-09-26 16:14:26 [main] INFO  ru.liga.menu.MainMenu - End
+2024-09-26 16:15:13 [main] INFO  ru.liga.menu.MainMenu - Start
+2024-09-26 16:15:13 [main] INFO  ru.liga.menu.MainMenu - main menu
+2024-09-26 16:15:16 [main] INFO  ru.liga.menu.MainMenu - case 2, packing parcels
+2024-09-26 16:15:18 [main] INFO  ru.liga.parcel.reader.MyCsvReader - Start reading CSV file
+2024-09-26 16:15:18 [main] DEBUG ru.liga.parcel.reader.MyCsvReader - Reading csv file with parcelsC:\Users\Danila\Java projects\CarTransportation\src\main\resources\file.csv
+2024-09-26 16:15:22 [main] INFO  r.l.a.p.t.ComplexPackingAlgorithm - Packing parcels
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+9 9 9 
+9 9 9 
+9 9 9 
+
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+9 9 9 
+9 9 9 
+9 9 9 
+
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 3
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+9 9 9 
+9 9 9 
+9 9 9 
+
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+9 9 9 
+9 9 9 
+9 9 9 
+
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 4, width 6
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+6 6 6 
+6 6 6 
+
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+6 6 6 
+6 6 6 
+
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 4, width 3
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+6 6 6 
+6 6 6 
+
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+6 6 6 
+6 6 6 
+
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 6, width 6
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 6, width 5
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 6, width 4
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 6, width 3
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+2 2 
+
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+2 2 
+
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 6, width 1
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+7 7 7 
+7 7 7 7 
+
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+7 7 7 
+7 7 7 7 
+
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 2
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+2 2 
+
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+2 2 
+
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 3
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 3, width 6
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+8 8 8 8 
+8 8 8 8 
+
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+8 8 8 8 
+8 8 8 8 
+
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 3, width 2
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 4, width 2
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 5, width 6
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+5 5 5 5 5 
+
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 5, width 1
+2024-09-26 16:15:22 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 6, width 6
+2024-09-26 16:15:22 [main] INFO  ru.liga.truck.write.TruckJsonWriter - Writing trucks into trucks.json
+2024-09-26 16:15:22 [main] INFO  ru.liga.menu.MainMenu - End
+2024-09-26 16:15:43 [main] INFO  ru.liga.menu.MainMenu - Start
+2024-09-26 16:15:43 [main] INFO  ru.liga.menu.MainMenu - main menu
+2024-09-26 16:15:45 [main] INFO  ru.liga.menu.MainMenu - case 2, packing parcels
+2024-09-26 16:15:48 [main] INFO  ru.liga.parcel.reader.MyCsvReader - Start reading CSV file
+2024-09-26 16:15:48 [main] DEBUG ru.liga.parcel.reader.MyCsvReader - Reading csv file with parcelsC:\Users\Danila\Java projects\CarTransportation\src\main\resources\file.csv
+2024-09-26 16:15:50 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 16:15:50 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 16:15:50 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+9 9 9 
+9 9 9 
+9 9 9 
+
+2024-09-26 16:15:50 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+9 9 9 
+9 9 9 
+9 9 9 
+
+2024-09-26 16:15:50 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 16:15:50 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 16:15:50 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+9 9 9 
+9 9 9 
+9 9 9 
+
+2024-09-26 16:15:50 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+9 9 9 
+9 9 9 
+9 9 9 
+
+2024-09-26 16:15:50 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 16:15:50 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 16:15:50 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+6 6 6 
+6 6 6 
+
+2024-09-26 16:15:50 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+6 6 6 
+6 6 6 
+
+2024-09-26 16:15:50 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 16:15:50 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 16:15:50 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+6 6 6 
+6 6 6 
+
+2024-09-26 16:15:50 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+6 6 6 
+6 6 6 
+
+2024-09-26 16:15:50 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 16:15:50 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 16:15:50 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+7 7 7 
+7 7 7 7 
+
+2024-09-26 16:15:50 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+7 7 7 
+7 7 7 7 
+
+2024-09-26 16:15:50 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 16:15:50 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 3
+2024-09-26 16:15:50 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+8 8 8 8 
+8 8 8 8 
+
+2024-09-26 16:15:50 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+8 8 8 8 
+8 8 8 8 
+
+2024-09-26 16:15:50 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 17:02:23 [main] INFO  ru.liga.Main - Start
+2024-09-26 17:02:25 [main] INFO  ru.liga.truck.read.TruckJsonReader - Reading trucks from csv file, trucks.json
+2024-09-26 17:02:25 [main] INFO  r.l.a.u.model.UnpackingAlgorithmImpl - Unpacking parcels
+2024-09-26 17:02:25 [main] INFO  ru.liga.Main - End
+2024-09-26 17:02:33 [main] INFO  ru.liga.Main - Start
+2024-09-26 17:02:38 [main] INFO  ru.liga.parcel.reader.MyCsvReader - Start reading CSV file
+2024-09-26 17:02:38 [main] DEBUG ru.liga.parcel.reader.MyCsvReader - Reading csv file with parcelsC:\Users\Danila\Java projects\CarTransportation\src\main\resources\file.csv
+2024-09-26 17:02:47 [main] INFO  r.l.a.p.t.ComplexPackingAlgorithm - Packing parcels
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+9 9 9 
+9 9 9 
+9 9 9 
+
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+9 9 9 
+9 9 9 
+9 9 9 
+
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 3
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+9 9 9 
+9 9 9 
+9 9 9 
+
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+9 9 9 
+9 9 9 
+9 9 9 
+
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 4, width 6
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+6 6 6 
+6 6 6 
+
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+6 6 6 
+6 6 6 
+
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 4, width 3
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+6 6 6 
+6 6 6 
+
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+6 6 6 
+6 6 6 
+
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 6, width 6
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 6, width 5
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 6, width 4
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 6, width 3
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+2 2 
+
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+2 2 
+
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 6, width 1
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+7 7 7 
+7 7 7 7 
+
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+7 7 7 
+7 7 7 7 
+
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 2
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+2 2 
+
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+2 2 
+
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 3
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 3, width 6
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+8 8 8 8 
+8 8 8 8 
+
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+8 8 8 8 
+8 8 8 8 
+
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 3, width 2
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 4, width 2
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 5, width 6
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+5 5 5 5 5 
+
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 5, width 1
+2024-09-26 17:02:47 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 6, width 6
+2024-09-26 17:02:47 [main] INFO  ru.liga.truck.write.TruckJsonWriter - Writing trucks into trucks.json
+2024-09-26 17:02:47 [main] INFO  ru.liga.Main - End
+2024-09-26 17:02:54 [main] INFO  ru.liga.Main - Start
+2024-09-26 17:02:59 [main] INFO  ru.liga.parcel.reader.MyCsvReader - Start reading CSV file
+2024-09-26 17:02:59 [main] DEBUG ru.liga.parcel.reader.MyCsvReader - Reading csv file with parcelsC:\Users\Danila\Java projects\CarTransportation\src\main\resources\file.csv
+2024-09-26 17:03:01 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 17:03:01 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 17:03:01 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+9 9 9 
+9 9 9 
+9 9 9 
+
+2024-09-26 17:03:01 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+9 9 9 
+9 9 9 
+9 9 9 
+
+2024-09-26 17:03:01 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 17:03:01 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 17:03:01 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+9 9 9 
+9 9 9 
+9 9 9 
+
+2024-09-26 17:03:01 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+9 9 9 
+9 9 9 
+9 9 9 
+
+2024-09-26 17:03:01 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 17:03:01 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 17:03:01 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+6 6 6 
+6 6 6 
+
+2024-09-26 17:03:01 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+6 6 6 
+6 6 6 
+
+2024-09-26 17:03:01 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 17:03:01 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 17:03:01 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+6 6 6 
+6 6 6 
+
+2024-09-26 17:03:01 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+6 6 6 
+6 6 6 
+
+2024-09-26 17:03:01 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 17:03:01 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 17:03:01 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+7 7 7 
+7 7 7 7 
+
+2024-09-26 17:03:01 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+7 7 7 
+7 7 7 7 
+
+2024-09-26 17:03:01 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 17:03:01 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 3
+2024-09-26 17:03:01 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+8 8 8 8 
+8 8 8 8 
+
+2024-09-26 17:03:01 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+8 8 8 8 
+8 8 8 8 
+
+2024-09-26 17:03:01 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:02:09 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:02:09 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:02:09 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:02:09 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 5
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-26 18:02:09 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:02:27 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 18:02:27 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:02:27 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:02:27 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:02:27 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:02:27 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:02:27 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:02:27 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:02:27 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:04:38 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 18:04:38 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:04:38 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:04:38 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:04:38 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:04:38 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:04:38 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:04:38 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:04:38 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:05:03 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 18:05:03 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:05:03 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:05:03 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:05:03 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:05:03 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:05:03 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:05:03 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:05:03 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:12:37 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 18:12:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:12:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:12:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:12:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:12:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:12:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:12:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:12:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:18:41 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 18:19:10 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:19:19 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:19:19 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:19:19 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:20:05 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:23:16 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:23:16 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:23:16 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:23:37 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 6
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 1
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 3, width 6
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 1
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 3, width 1
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 4, width 6
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 1
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 3, width 1
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 4, width 1
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 5, width 6
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 1
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 3, width 1
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 4, width 1
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 5, width 1
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 6, width 6
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 1
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 3, width 1
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 4, width 1
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 5, width 1
+2024-09-26 18:23:37 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 6, width 1
+2024-09-26 18:23:37 [main] WARN  r.l.a.p.types.EvenlyPackingAlgorithm - Cannot place any more parcels in the truck 2113748097
+2024-09-26 18:24:13 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 18:24:13 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 6
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 1
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 3, width 6
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 1
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 3, width 1
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 4, width 6
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 1
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 3, width 1
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 4, width 1
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 5, width 6
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 1
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 3, width 1
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 4, width 1
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 5, width 1
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 6, width 6
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 1
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 3, width 1
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 4, width 1
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 5, width 1
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 6, width 1
+2024-09-26 18:24:14 [main] WARN  r.l.a.p.types.EvenlyPackingAlgorithm - Cannot place any more parcels in the truck 102174918
+2024-09-26 18:24:14 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:24:14 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:24:14 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 5
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:24:14 [main] INFO  r.l.a.u.UnpackingAlgorithmImpl - Unpacking parcels
+2024-09-26 18:24:14 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 5
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 4
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+2 2 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+2 2 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 2
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 6
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+3 3 3 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+3 3 3 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:24:14 [main] INFO  r.l.a.p.types.SimplePackingAlgorithm - Packing parcels
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:24:14 [main] INFO  r.l.a.p.types.SimplePackingAlgorithm - Packing parcels
+2024-09-26 18:24:14 [main] WARN  r.l.a.p.types.SimplePackingAlgorithm - Not enough trucks to simple packing algorithm
+2024-09-26 18:24:14 [main] INFO  r.l.a.p.types.SimplePackingAlgorithm - Packing parcels
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-26 18:24:14 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:47:11 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 6
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 1
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 3, width 6
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 1
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 3, width 1
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 4, width 6
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 1
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 3, width 1
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 4, width 1
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 5, width 6
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 1
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 3, width 1
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 4, width 1
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 5, width 1
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 6, width 6
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 1
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 3, width 1
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 4, width 1
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 5, width 1
+2024-09-26 18:47:11 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 6, width 1
+2024-09-26 18:47:11 [main] WARN  r.l.a.p.types.EvenlyPackingAlgorithm - Cannot place any more parcels in the truck 735937428
+2024-09-26 18:47:12 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:47:12 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:47:12 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 5
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:47:12 [main] INFO  r.l.a.u.UnpackingAlgorithmImpl - Unpacking parcels
+2024-09-26 18:47:12 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 5
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 4
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+2 2 
+
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+2 2 
+
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 2
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 6
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+3 3 3 
+
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+3 3 3 
+
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:47:12 [main] INFO  r.l.a.p.types.SimplePackingAlgorithm - Packing parcels
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:47:12 [main] INFO  r.l.a.p.types.SimplePackingAlgorithm - Packing parcels
+2024-09-26 18:47:12 [main] WARN  r.l.a.p.types.SimplePackingAlgorithm - Not enough trucks to simple packing algorithm
+2024-09-26 18:47:12 [main] INFO  r.l.a.p.types.SimplePackingAlgorithm - Packing parcels
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-26 18:47:12 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:51:44 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 6
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 1
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 3, width 6
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 1
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 3, width 1
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 4, width 6
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 1
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 3, width 1
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 4, width 1
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 5, width 6
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 1
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 3, width 1
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 4, width 1
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 5, width 1
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 6, width 6
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+5 5 5 5 5 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+5 5 5 5 5 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 1
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 3, width 1
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 4, width 1
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 5, width 1
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 6, width 1
+2024-09-26 18:51:44 [main] WARN  r.l.a.p.types.EvenlyPackingAlgorithm - Cannot place any more parcels in the truck 405896924
+2024-09-26 18:51:44 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:51:44 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:51:44 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 5
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:51:44 [main] INFO  r.l.a.u.UnpackingAlgorithmImpl - Unpacking parcels
+2024-09-26 18:51:44 [main] INFO  r.l.a.p.types.EvenlyPackingAlgorithm - Packing Parcels
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 6
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Reducing the number of parcels 
+1 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 5
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 4
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+2 2 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+2 2 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 2
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 1, width 1
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - finding empty place with height 2, width 6
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+3 3 3 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+3 3 3 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:51:44 [main] INFO  r.l.a.p.types.SimplePackingAlgorithm - Packing parcels
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid
+2024-09-26 18:51:44 [main] INFO  r.l.a.p.types.SimplePackingAlgorithm - Packing parcels
+2024-09-26 18:51:44 [main] WARN  r.l.a.p.types.SimplePackingAlgorithm - Not enough trucks to simple packing algorithm
+2024-09-26 18:51:44 [main] INFO  r.l.a.p.types.SimplePackingAlgorithm - Packing parcels
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - removing parcel 
+1 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - Removed parcel 
+1 
+
+2024-09-26 18:51:44 [main] DEBUG r.l.a.p.model.PackingAlgorithmImpl - setting parcel into grid

@@ -1,5 +1,10 @@
 package ru.liga.truck.write;
 
+import ru.liga.truck.model.Truck;
+
+import java.io.File;
+import java.util.List;
+
 public interface TruckWriter {
-    void write();
+    List<Truck> write(List<Truck> trucks, File file);
 }

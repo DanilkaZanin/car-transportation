@@ -1,6 +1,6 @@
 package ru.liga.parcel.reader;
 
-import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import ru.liga.parcel.model.Parcel;
 import ru.liga.parcel.validation.ParcelsValidator;
@@ -8,16 +8,18 @@ import ru.liga.parcel.validation.ParcelsValidator;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 @Slf4j
-@NoArgsConstructor
+@RequiredArgsConstructor
 public class MyCsvReader {
-    private ParcelsValidator parcelsValidator;
+    private final ParcelsValidator parcelsValidator;
 
     public Map<Parcel, Integer> readCSV(String filePathForParcels) {
         log.info("Start reading CSV file");
-        parcelsValidator = new ParcelsValidator();
         return getParcels(filePathForParcels);
     }
 

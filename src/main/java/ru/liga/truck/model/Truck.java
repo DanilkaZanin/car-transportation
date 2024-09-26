@@ -10,10 +10,11 @@ import java.util.UUID;
 @Slf4j
 @Getter
 public class Truck {
-    private final int id;
-    private final CountOfParcels countOfParcels;
     public static final int MAX_HEIGHT = 6;
     public static final int MAX_WIDTH = 6;
+
+    private final int id;
+    private final CountOfParcels countOfParcels;
     private final int[][] grid;
 
     public Truck() {
@@ -41,9 +42,9 @@ public class Truck {
     @Override
     public String toString() {
         String string = new String();
-        for (int i = 0; i < MAX_HEIGHT; i++) {
-            for (int j = 0; j < MAX_WIDTH; j++) {
-                string += grid[i][j] + " ";
+        for (int currentHeight = 0; currentHeight < MAX_HEIGHT; currentHeight++) {
+            for (int currentWidth = 0; currentWidth < MAX_WIDTH; currentWidth++) {
+                string += grid[currentHeight][currentWidth] + " ";
             }
             string += "\n";
         }
