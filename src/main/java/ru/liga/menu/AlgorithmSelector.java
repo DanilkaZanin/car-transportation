@@ -5,8 +5,23 @@ import ru.liga.algorithm.packing.model.TypeOfAlgorithm;
 
 import java.util.Scanner;
 
+/**
+ * Класс отвечает за выбор подходящего алгоритма упаковки.
+ * Предлагает пользователю ввести символ для выбора алгоритма и возвращает соответствующую реализацию.
+ */
 public class AlgorithmSelector {
 
+    /**
+     * Предлагает пользователю выбрать алгоритм упаковки, вводя один из символов:
+     * <ul>
+     *     <li>'s' - простой алгоритм упаковки</li>
+     *     <li>'c' - сложный алгоритм упаковки</li>
+     *     <li>'e' - равномерный алгоритм упаковки</li>
+     * </ul>
+     *
+     * @return выбранный алгоритм {@link PackingAlgorithm}, исходя из ввода пользователя.
+     * @throws IllegalArgumentException если введённый символ не соответствует ни одному алгоритму.
+     */
     public PackingAlgorithm selectAlgorithm() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("s - simple");

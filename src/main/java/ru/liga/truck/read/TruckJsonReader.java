@@ -10,12 +10,20 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * Класс, реализующий чтение машин из JSON-файла.
+ */
 @Slf4j
 @RequiredArgsConstructor
 public class TruckJsonReader implements TruckReader {
     private final File file;
     private final ObjectMapper mapper;
 
+    /**
+     * Читает список машин из JSON-файла.
+     *
+     * @return список машин
+     */
     @Override
     public List<Truck> read() {
         log.info("Reading trucks from csv file, {}", file.getName());
