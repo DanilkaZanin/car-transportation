@@ -9,11 +9,21 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
+/**
+ * Реализация сложного алгоритма упаковки.
+ */
 @Slf4j
 public class ComplexPackingAlgorithm extends PackingAlgorithmImpl {
     private static final int CONVERSION_INDEX = 1;
     private static final int FREE_ZONE_VALUE = 0;
 
+    /**
+     * Упаковывает предоставленные посылки в список машин.
+     *
+     * @param parcels карта, где ключ — посылка, а значение — количество таких посылок
+     * @param trucks список машин для упаковки посылок
+     * @return список машин с упакованными посылками
+     */
     @Override
     public List<Truck> packParcelsIntoTrucks(Map<Parcel, Integer> parcels, List<Truck> trucks) {
         log.info("Packing parcels");

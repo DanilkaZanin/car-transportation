@@ -13,11 +13,22 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Класс для чтения CSV-файлов с посылками.
+ * Содержит методы для чтения файла, валидации данных и возврата посылок с их количеством.
+ */
 @Slf4j
 @RequiredArgsConstructor
 public class MyCsvReader {
     private final ParcelsValidator parcelsValidator;
 
+    /**
+     * Читает CSV-файл с посылками, валидирует данные и возвращает их в виде карты,
+     * где ключом является объект {@link Parcel}, а значением — количество таких посылок.
+     *
+     * @param filePathForParcels путь к файлу CSV с посылками.
+     * @return карта с посылками и их количеством.
+     */
     public Map<Parcel, Integer> readCSV(String filePathForParcels) {
         log.info("Start reading CSV file");
         return getParcels(filePathForParcels);

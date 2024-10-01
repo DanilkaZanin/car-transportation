@@ -10,11 +10,21 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicBoolean;
 
+/**
+ * Реализация алгоритма упаковки с равномерным распределением.
+ */
 @Slf4j
 public class EvenlyPackingAlgorithm extends PackingAlgorithmImpl {
     private static final int FREE_ZONE_VALUE = 0;
     private static final int CONVERSION_INDEX = 1;
 
+    /**
+     * Упаковывает предоставленные посылки в список машин.
+     *
+     * @param parcels карта, где ключ — посылка, а значение — количество таких посылок
+     * @param trucks список машин для упаковки посылок
+     * @return список машин с упакованными посылками
+     */
     @Override
     public List<Truck> packParcelsIntoTrucks(Map<Parcel, Integer> parcels, List<Truck> trucks) {
         log.info("Packing Parcels");
@@ -43,7 +53,7 @@ public class EvenlyPackingAlgorithm extends PackingAlgorithmImpl {
         return trucks;
     }
 
-    public boolean tryPlaceParcel(Truck truck, int currentHeight,
+    private boolean tryPlaceParcel(Truck truck, int currentHeight,
                                   int currentWidth,
                                   Map.Entry<Integer, Integer> emptyPlace,
                                   Map<Parcel, Integer> parcels) {

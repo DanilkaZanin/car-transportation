@@ -9,6 +9,9 @@ import java.util.Comparator;
 import java.util.Map;
 import java.util.Optional;
 
+/**
+ * Абстрактная реализация интерфейса {@link PackingAlgorithm}, предоставляющая общие методы для упаковки посылок.
+ */
 @Slf4j
 @RequiredArgsConstructor
 public abstract class PackingAlgorithmImpl implements PackingAlgorithm {

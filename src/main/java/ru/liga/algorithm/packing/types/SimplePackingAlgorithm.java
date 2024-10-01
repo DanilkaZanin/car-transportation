@@ -9,12 +9,22 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
+/**
+ * Реализация простого алгоритма упаковки.
+ */
 @Slf4j
 public class SimplePackingAlgorithm extends PackingAlgorithmImpl {
     private static final int TRUCK_MAX_HEIGHT_INDEX = Truck.MAX_HEIGHT - 1;
     private static final int TRUCK_MAX_WIDTH_INDEX = Truck.MAX_WIDTH - 1;
     private static final int TRUCK_START_WIDTH_INDEX = 0;
 
+    /**
+     * Упаковывает предоставленные посылки в список машин.
+     *
+     * @param parcels карта, где ключ — посылка, а значение — количество таких посылок
+     * @param trucks список машин для упаковки посылок
+     * @return список машин с упакованными посылками
+     */
     @Override
     public List<Truck> packParcelsIntoTrucks(Map<Parcel, Integer> parcels, List<Truck> trucks) {
         log.info("Packing parcels");

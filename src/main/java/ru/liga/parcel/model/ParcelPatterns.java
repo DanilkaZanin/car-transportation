@@ -4,6 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 
+/**
+ * Класс хранит шаблоны посылок в виде двумерных массивов целых чисел.
+ * Используется для определения формы посылки на основе её цифрового идентификатора.
+ */
 public class ParcelPatterns {
     private static final Map<Integer, int[][]> PATTERNS = new HashMap<>();
 
@@ -18,6 +22,12 @@ public class ParcelPatterns {
         PATTERNS.put(9, new int[][]{{9, 9, 9}, {9, 9, 9}, {9, 9, 9}});
     }
 
+    /**
+     * Возвращает шаблон посылки в виде двумерного массива, соответствующий переданному числу.
+     *
+     * @param digit число, которое представляет тип посылки.
+     * @return {@link Optional}, содержащий шаблон посылки, если такой существует; пустой {@link Optional} в противном случае.
+     */
     public static Optional<int[][]> getShape(int digit) {
         return Optional.ofNullable(PATTERNS.get(digit));
     }

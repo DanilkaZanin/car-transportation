@@ -15,12 +15,12 @@ public class UnpackingAlgorithmImpl implements UnpackingAlgorithm {
     @Override
     public void unpackParcels(List<Truck> trucks) {
         log.info("Unpacking parcels");
+        int numberOfTruck = 1;
         for (Truck truck : trucks) {
             int[][] grid = truck.getGrid();
             Map<Integer, Integer> parcelCount = new HashMap<>();
 
             boolean[][] visited = new boolean[Truck.MAX_HEIGHT][Truck.MAX_WIDTH];
-
             for (int currentHeight = 0; currentHeight < Truck.MAX_HEIGHT; currentHeight++) {
                 for (int currentWidth = 0; currentWidth < Truck.MAX_WIDTH; currentWidth++) {
                     if (grid[currentHeight][currentWidth] > 0 && !visited[currentHeight][currentWidth]) {
@@ -30,7 +30,8 @@ public class UnpackingAlgorithmImpl implements UnpackingAlgorithm {
                     }
                 }
             }
-            printResults(truck, parcelCount);
+            printResults(truck, parcelCount, numberOfTruck);
+            numberOfTruck++;
         }
     }
 
@@ -68,13 +69,14 @@ public class UnpackingAlgorithmImpl implements UnpackingAlgorithm {
         return row + patternHeight <= Truck.MAX_HEIGHT && col + patternWidth <= Truck.MAX_WIDTH;
     }
 
-    private void printResults(Truck truck, Map<Integer, Integer> parcelCount) {
+    private void printResults(Truck truck, Map<Integer, Integer> parcelCount, int numberOfTruck) {
         log.trace("Printing results of truck: {} ", truck);
-        System.out.println("грузовик");
+        System.out.println("грузовик " + numberOfTruck);
         System.out.println(truck);
         System.out.println("Количество посылок в грузовике:");
         for (Map.Entry<Integer, Integer> entry : parcelCount.entrySet()) {
             System.out.println("Посылок типа " + entry.getKey() + ": " + entry.getValue());
         }
+        System.out.println("--------------");
     }
 }
