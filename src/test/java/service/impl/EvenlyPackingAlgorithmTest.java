@@ -18,7 +18,7 @@ class EvenlyPackingAlgorithmTest {
 
 
     @Test
-    void shouldPackageOneParcelInOneTruck() {
+    void shouldPackageOneParcelWhenOneTruck() {
         List<String> shape = List.of("1");
         Parcel parcel = new Parcel(shape);
         Map<Parcel, Integer> parcels = new HashMap<>();
@@ -38,7 +38,7 @@ class EvenlyPackingAlgorithmTest {
     }
 
     @Test
-    void shouldPackageTwoParcelsInTwoTrucks() {
+    void shouldPackageTwoParcelsWhenTwoTrucks() {
         List<String> shape1 = List.of("1");
         Parcel parcel1 = new Parcel(shape1);
         Map<Parcel, Integer> parcels = new HashMap<>();
@@ -60,7 +60,7 @@ class EvenlyPackingAlgorithmTest {
     }
 
     @Test
-    void shouldPackageThreeParcelsInTwoTrucks() {
+    void shouldPackageThreeParcelsWhenTwoTrucks() {
         List<String> shape1 = List.of("1");
         Parcel parcel1 = new Parcel(shape1);
         Map<Parcel, Integer> parcels = new HashMap<>();

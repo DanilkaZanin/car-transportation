@@ -16,7 +16,7 @@ import static org.assertj.core.api.Assertions.assertThatThrownBy;
 class SimplePackingAlgorithmTest {
 
     @Test
-    void shouldPackageOneParcelInOneTruck() {
+    void shouldPackageOneParcelWhenOneTruck() {
         List<String> shape = List.of("1");
         Parcel parcel = new Parcel(shape);
         Map<Parcel, Integer> parcels = new HashMap<>();
@@ -37,7 +37,7 @@ class SimplePackingAlgorithmTest {
     }
 
     @Test
-    void shouldPackageOneParcelInTwoTrucks() {
+    void shouldPackageOneParcelWhenTwoTrucks() {
         List<String> shape = List.of("1");
         Parcel parcel = new Parcel(shape);
         Map<Parcel, Integer> parcels = new HashMap<>();
