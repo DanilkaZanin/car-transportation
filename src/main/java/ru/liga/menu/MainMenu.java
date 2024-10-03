@@ -1,24 +1,27 @@
 package ru.liga.menu;
 
+import lombok.Builder;
 import lombok.RequiredArgsConstructor;
-import ru.liga.parcel.reader.MyCsvReader;
+import ru.liga.repository.ParcelReader;
 
 import java.util.Scanner;
 
+@Builder
 @RequiredArgsConstructor
 public class MainMenu {
+    private final ParcelReader reader;
     private final TruckMenu truckMenu;
+    private final Scanner scanner;
 
-    public void showMenu(MyCsvReader reader) {
-        System.out.println("Выберите режим работы");
-        System.out.println("1 - читать json");
-        System.out.println("2 - погрузка посылок в грузовик");
-        Scanner scanner = new Scanner(System.in);
+    public void showMenu() {
+        System.out.println("Select operating mode");
+        System.out.println("1 - read json");
+        System.out.println("2 - load parcels into the truck");
         String str = scanner.nextLine();
         switch (str) {
-            case "1" -> truckMenu.readAndUnpackTrucks();
+            case "1" -> truckMenu.unpackTrucks();
             case "2" -> truckMenu.packTrucks(reader);
-            default -> System.out.println("Неверный выбор");
+            default -> System.out.println("Invalid selection");
         }
     }
 }
