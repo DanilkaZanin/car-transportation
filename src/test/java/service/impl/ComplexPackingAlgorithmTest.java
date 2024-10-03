@@ -1,16 +1,19 @@
+package service.impl;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import ru.liga.algoritm.PackingAlgorithm;
+import ru.liga.service.PackingAlgorithm;
+import ru.liga.service.impl.EvenlyPackingAlgorithm;
 import ru.liga.model.Parcel;
 import ru.liga.model.Truck;
-import ru.liga.model.TypeOfAlgorithm;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class PackingAlgorithmTest {
+class ComplexPackingAlgorithmTest {
 
     private Map<Parcel, Integer> parcels;
     private Parcel smallParcel;
@@ -31,32 +34,16 @@ class PackingAlgorithmTest {
     }
 
     @Test
-    void testSimpleAlgorithm() {
-        PackingAlgorithm algorithm = new PackingAlgorithm(parcels, TypeOfAlgorithm.SIMPLE);
-
-        List<Truck> trucks = algorithm.getTrucks();
-        assertNotNull(trucks);
-        assertEquals(4, trucks.size(), "Должны быть использованы 3 грузовика");
-
-        Truck firstTruck = trucks.get(0);
-        Truck secondTruck = trucks.get(1);
-        Truck thirdTruck = trucks.get(2);
-
-        assertTrue(isParcelInTruck(firstTruck, largeParcel));
-        assertTrue(isParcelInTruck(secondTruck, mediumParcel));
-        assertTrue(isParcelInTruck(thirdTruck, smallParcel));
-    }
-
-    @Test
     void testComplexAlgorithm() {
-        PackingAlgorithm algorithm = new PackingAlgorithm(parcels, TypeOfAlgorithm.COMPLEX);
+        PackingAlgorithm algorithm = new EvenlyPackingAlgorithm();
 
-        List<Truck> trucks = algorithm.getTrucks();
+        List<Truck> trucks = algorithm.packParcelsIntoTrucks(parcels, List.of(new Truck()));
         assertNotNull(trucks);
         assertEquals(1, trucks.size(), "Должны быть использованы 2 грузовика при сложном алгоритме");
 
         Truck firstTruck = trucks.get(0);
 
+        assertTrue(isParcelInTruck(firstTruck, smallParcel));
         assertTrue(isParcelInTruck(firstTruck, largeParcel));
         assertTrue(isParcelInTruck(firstTruck, mediumParcel));
     }
@@ -73,4 +60,3 @@ class PackingAlgorithmTest {
         return false;
     }
 }
-

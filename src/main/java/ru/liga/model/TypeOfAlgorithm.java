@@ -1,5 +1,5 @@
 package ru.liga.model;
 
 public enum TypeOfAlgorithm {
-    SIMPLE, COMPLEX
+    SIMPLE, COMPLEX, EVENLY
 }
